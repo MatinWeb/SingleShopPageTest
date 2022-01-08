@@ -1,5 +1,5 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="d-flex justify-center mt-15">
+    <h1>این صفحه درباره من است.</h1>
   </div>
 </template>

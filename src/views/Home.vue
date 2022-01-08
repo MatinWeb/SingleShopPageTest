@@ -1,15 +1,23 @@
 <template>
-  <hello-world />
+  <div>
+    <v-container class="landing_container">
+      <mainPageComponent />
+    </v-container>
+  </div>
 </template>
 
 <script>
-  import HelloWorld from '../components/HelloWorld'
+import mainPageComponent from "@/components/mainWrapper/mainPageComponent";
 
-  export default {
-    name: 'Home',
+export default {
+  name: "Home",
 
-    components: {
-      HelloWorld,
-    },
-  }
+  components: {
+    mainPageComponent,
+  },
+};
 </script>
+
+<style scoped>
+
+</style>
